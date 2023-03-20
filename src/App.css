@@ -1,0 +1,70 @@
+.Main-Calculator {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Calculator-Container {
+  width: 25%;
+  height: 70%;
+  border: 2px solid black;
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* background-color: rgba(0, 0, 0, 0.918); */
+}
+
+.Calculator-Container .Input {
+  width: 95%;
+  height: 65%;
+  /* margin-top: 0.5rem; */
+  border: 2px dotted black;
+  border-radius: 0.5rem;
+  background-color: grey;
+}
+
+.Input-Container {
+  width: 100%;
+  height: 15vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Input{
+    font-size: 2rem;
+    direction: rtl;
+    
+}
+
+.Number-Container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.Number-Box {
+  height: 15%;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.Number,.operation {
+  width: 22%;
+  height: 95%;
+  background-color: gray;
+  border: 1px solid black;
+  border-radius: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+}
